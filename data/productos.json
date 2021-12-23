@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "imagen": "assets/images/portada-angular.jpeg",
+        "nombre": "Angular 13 (Edición 2021)",
+        "descripcion": "24 horas de contenido + 3 proyectos prácticos",
+        "precio": 2500,
+        "precio_descuento": 0,
+        "recomendado": false
+    },
+    {
+        "id": 2,
+        "imagen": "assets/images/portada-reactjs.png",
+        "nombre": "React: De cero a avanzado",
+        "descripcion": "32 horas de contenido + 4 proyectos prácticos",
+        "precio": 4500,
+        "precio_descuento": 0,
+        "recomendado": false
+    },
+    {
+        "id": 3,
+        "imagen": "assets/images/portada-nodejs.jpg",
+        "nombre": "NodeJS: Curso avanzado",
+        "descripcion": "45 horas de contenido + 5 proyectos prácticos",
+        "precio": 6300,
+        "precio_descuento": 4599,
+        "recomendado": true
+    },
+    {
+        "id": 4,
+        "imagen": "assets/images/portada-vuejs.png",
+        "nombre": "Vue.js: De cero a experto",
+        "descripcion": "23 horas de contenido + 2 proyectos prácticos",
+        "precio": 2580,
+        "precio_descuento": 2299,
+        "recomendado": true
+    },
+    {
+        "id": 5,
+        "imagen": "assets/images/portada-laravel.png",
+        "nombre": "Laravel: Nivel inicial",
+        "descripcion": "12 horas de contenido",
+        "precio": 1890,
+        "precio_descuento": 0,
+        "recomendado": false
+    },
+    {
+        "id": 6,
+        "imagen": "assets/images/portada-bootstrap.png",
+        "nombre": "Bootstrap 5: Curso para principiantes",
+        "descripcion": "7 horas de contenido",
+        "precio": 1890,
+        "precio_descuento": 0,
+        "recomendado": false
+    },
+    {
+        "id": 7,
+        "imagen": "assets/images/portada-nextjs.png",
+        "nombre": "Next JS: Primeros conocimientos",
+        "descripcion": "3 horas de contenido",
+        "precio": 1500,
+        "precio_descuento": 999,
+        "recomendado": false
+    },
+    {
+        "id": 8,
+        "imagen": "assets/images/portada-ionic.png",
+        "nombre": "Ionic 6: De cero a experto",
+        "descripcion": "14 horas de contenido",
+        "precio": 2500,
+        "precio_descuento": 2299,
+        "recomendado": true
+    },
+    {
+        "id": 9,
+        "imagen": "assets/images/portada-github.png",
+        "nombre": "Aprende a implementar GitHub",
+        "descripcion": "5 horas de contenido",
+        "precio": 1499,
+        "precio_descuento": 0,
+        "recomendado": false
+    },
+    {
+        "id": 10,
+        "imagen": "assets/images/portada-dart.png",
+        "nombre": "Dart: nivel inicial",
+        "descripcion": "7 horas de contenido",
+        "precio": 1499,
+        "precio_descuento": 0,
+        "recomendado": false
+    },
+    {
+        "id": 11,
+        "imagen": "assets/images/portada-flutter.png",
+        "nombre": "Flutter + Dart: Técnicas avanzadas",
+        "descripcion": "15 horas de contenido",
+        "precio": 2499,
+        "precio_descuento": 2299,
+        "recomendado": true
+    },
+    {
+        "id": 12,
+        "imagen": "assets/images/portada-python.png",
+        "nombre": "Iniciate en Python",
+        "descripcion": "5 horas de contenido",
+        "precio": 999,
+        "precio_descuento": 0,
+        "recomendado": false
+    }
+]

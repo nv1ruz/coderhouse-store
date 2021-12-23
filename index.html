@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coderhouse Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/color-themes.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="light-theme">
+    <div id="app" class="app-wrapper">
+        <navbar class="navbar">
+            <div class="navbar__titulo-wrapper">
+                <p class="navbar__titulo">Coderhouse Store</p>
+            </div>
+            <div class="navbar__btn-carrito-wrapper">
+                <a id="ir-carrito" class="navbar__btn-carrito">Mi carrito</a>
+            </div>
+        </navbar>
+
+        <div id="notificacion-wrapper">
+            
+        </div>
+
+        <section class="banner">
+            <h1 class="banner-titulo">Bienvenido a <span class="banner-titulo--primary">CODERHOUSE STORE</span></h1>
+            <p class="banner-descripcion">Un lugar en donde podrás <strong>acceder a los cursos</strong> de manera 
+                <strong>online</strong>.</p>
+        </section>
+
+        <div style="background-color: #F7F7F7;">
+            <p class="section-titulo">Cursos disponibles</p>
+    
+            <section id="section-productos" class="productos-container">
+                <!-- producto -->
+            </section>
+        </div>
+
+        
+        <section id="section-carrito" class="carrito-wrapper">
+            <p class="section-titulo">Mi carrito</p>
+            <div id="carrito-productos" class="carrito-productos-container">
+                <!-- carrito-producto -->
+                <p id="mensaje-carrito-vacio" class="mensaje-carrito-vacio">🛒 El carrito está vacio</p>
+            </div>
+            <div class="form-group-total-carrito">
+                <button class="btn-quitar-producto" onclick="alertVaciarCarrito()">Vaciar</button>
+                <p style="width: 100%; text-align: right;">Total a pagar</p>
+                <input type="text" id="totalCarrito" class="total-carrito" value="$0" readonly>
+            </div>
+
+            <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06); padding: 10px;">
+                <form id="formulario-carrito">
+                    <div class="form-control-container">
+                        <div class="form-control-group mb-10 mr-10">
+                            <p class="form-control-label">Nombre</p>
+                            <input type="text" 
+                                   id="form-nombre" 
+                                   class="form-control" 
+                                   placeholder="Ingresa tu nombre">
+                            <div id="feedback-form-nombre" class="invalid-feedback">
+                                <span>Es un campo requerido</span>
+                            </div>
+                        </div>
+                        <div class="form-control-group mb-10">
+                            <p class="form-control-label">Email</p>
+                            <input type="email" 
+                                   id="form-direccion" 
+                                   class="form-control" 
+                                   placeholder="Ingresa tu email">
+                            <div id="feedback-form-direccion" class="invalid-feedback">
+                                <span>Es un campo requerido</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-comprar">Realizar compra</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <img class="coderhouse-logo" src="assets/images/coderhouse-logo.png" alt="coderhouse-logo">
+            <img class="javascript-logo" src="assets/images/javascript-logo.png" alt="javascript-logo">
+            <div class="curso-info">
+                <p class="mr-10">Profesor: <strong>Verón, javier.</strong></p>
+                <p class="mr-10">Tutora: <strong>Garro, Luciana.</strong></p>
+                <p>Año: <strong>2021</strong></p>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

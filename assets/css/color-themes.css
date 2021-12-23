@@ -1,0 +1,12 @@
+.light-theme{
+    /* form control */
+    --formcontrol-lbl               : #6B6F76;
+    --formcontrol-txt               : #000;
+    --formcontrol-bg                : #F4F6F9;
+    --formcontrol-placeholder       : #CED4DA;
+    --formcontrol-border            : transparent;
+    --formcontrol-border-hover      : #CED4DA;
+    --formcontrol-border-focus      : #006DE2;
+    --formcontrol-border-valid      : #31B14E;
+    --formcontrol-border-invalid    : #C53644;   
+}
